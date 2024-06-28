@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Bashar's | Portfolio</title>
+
+  <!-- box icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/mynewfavicon.png">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("8Qjf3YE8puXaq4T9T");
+    })();
+  </script>
+
+</head>
+
+<body>
+
+  <!-- header design -->
+
+  <header class="header">
+    <a href="#" class="logo">Md Abul Bashar</a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Expertise</a>
+      <a href="#portfolio">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- home section design -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Md.Abul Bashar</h1>
+      <h3>And I'm a <span class="multiple-text"></span></h3>
+      <p>If you have any exciting projects or opportunities, feel free to reach out. Let's create something amazing
+        together!</p>
+      <div class="social-media">
+        <a href="https://www.facebook.com/abulbasher.abulbasher.1257" class="bx bxl-facebook"></a>
+        <a href="https://api.whatsapp.com/send/?phone=%2B8801721229709&text&type=phone_number&app_absent=0"
+          class="bx bxl-whatsapp"></a>
+        <a href="https://www.instagram.com/Bashar18309/" class="bx bxl-instagram-alt" target="_blank"></a>
+        <a href="https://www.linkedin.com/in/mohammad-bashar-962aa526b?trk=contact-info/" class="bx bxl-linkedin" target="_blank"></a>
+        <a href="https://github.com/bashar9709" class='bx bxl-github' target="_blank"></a>
+
+      </div>
+      <a href="" class="btn">Download CV</a>
+    </div>
+    <div class="home-img">
+      <img src="images/home1.jpg" alt="Avatar">
+    </div>
+  </section>
+  <!-- about section design -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="images/about.jpg" alt="">
+    </div>
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>Backend Developer!</h3>
+      <p>I'm Md.Abul Bashar, a passionate Backend Web Developer with a knack for creating captivating web experiences. My
+        journey into the world of programming began with a fascination for Backend development and frontend, which grew into a love
+        for crafting user-friendly interfaces that leave a lasting impact.</p>
+      <p id="additional-content" style="display: none;">With a strong foundation in Python and Backend development, I
+        bring a well-rounded skill set to the table. My dedication to continuous learning keeps me up-to-date with the
+        latest trends and technologies in the industry, ensuring that my work stays cutting-edge. <br> <br>
+
+        I thrive on challenges and take pride in delivering efficient and scalable solutions that meet client needs.
+        From concept to deployment, I take a hands-on approach in every stage of the development process.
+
+        Let's collaborate and turn ideas into reality! Whether it's building exciting web applications or tackling
+        complex problems, I'm always ready to take on new ventures and explore the limitless possibilities of coding.
+      </p>
+      <button class="btn" id="read-more-btn">Read more</button>
+      <!-- <a href="" class="btn" >Read More</a> -->
+    </div>
+  </section>
+
+  <!-- services section design -->
+  <section class="service" id="services">
+    <h2 class="heading">My <span>Expertise</span></h2>
+    <div class="services-container">
+      <div class="services-box">
+        <i class="bx bx-code-alt"></i>
+        <h3>Frontend Development</h3>
+        <h1>(Basic)</h1>
+        <p>In frontend development, I excel in <b>HTML, CSS</b> and <b>Bootstrap all (basic),</b> crafting captivating
+          user interfaces
+          and
+          experiences.</p>
+        <!-- <i class='Mbx bxl-html5' ></i> <i class='bx bxl-css3'></i> <i class='bx bxl-react'></i> -->
+        <div class="expertIcon">
+          <i class="bx bxl-html5"></i>
+          <i class="bx bxl-css3"></i>
+          <i class='bx bxl-bootstrap'></i>
+        </div>
+        <!-- <a href="#" class="btn">Read More</a> -->
+      </div>
+
+      <div class="services-box">
+        <i class="bx bxs-paint"></i>
+        <h3>Backend Development</h3>
+        <p>Proficient in <b>Python & Django</b>. Creating efficient, scalable solutions for seamless web applications 
+        </p>
+        <div class="expertIcon">
+          <i class='bx bxl-python'></i>
+          <i class='bx bxl-django'></i>
+        </div>
+        <!-- <a href="#" class="btn">Read More</a> -->
+      </div> 
+      <div class="services-box">
+        <i class="bx bxs-paint"></i>
+        <h3>Programming Languages</h3>
+        <p>Proficient in <b>C, C++ & Java </b>. Creating efficient, scalable solutions for seamless problems 
+        </p>
+        <div class="expertIcon">
+          <i class='fas fa-code'></i>
+          <i class='bx bxl-c-plus-plus'></i>
+          <i class='bx bxl-java'></i>
+        </div>
+        <!-- <a href="#" class="btn">Read More</a> -->
+      </div>
+
+      <div class="services-box">
+        <i class="bx bx-data"></i>
+        <h3>Database Management</h3>
+        <p>Specialized in <b>MySQL</b>. Designing and managing efficient databases for seamless data storage and
+          retrieval in web applications.</p>
+        <div class="expertIcon">
+          <i class='bx bxl-mysql'></i>
+        </div>
+        <!-- <a href="#" class="btn">Read More</a> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- portfolio section design -->
+
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+    <div class="portfolio-container">
+
+
+      <div class="portfolio-box">
+        <img src="" alt="">
+        <div class="portfolio-layer">
+          <h4>Book Store Management</h4>
+          <p>A fully functional <b>Book Store Management</b> web app developed in <b>Bootstrap, HTML</b> and <b>Django</b>
+          </p>
+          <a target="_blank" href="https://github.com/bashar9709/Django_project/tree/main/book_mangement"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+
+
+      <div class="portfolio-box">
+        <img src="" alt="">
+        <div class="portfolio-layer">
+          <h4>Todo List</h4>
+          <p>A <b>Todo List</b> Web app. functionally developed using <b>Bootstrap, javascript & HTML, css</b> </p>
+          <a target="_blank" href="https://github.com/bashar9709/django_project_todolist/tree/main/todo_project"><i
+              class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="" alt="">
+        <div class="portfolio-layer">
+          <h4>My Awesome Cart</h4>
+          <p>An E-Commerce website developed using <b>HTML, CSS, Bootstrap and Django</b></p>
+          <a target="_blank" href="https://github.com/bashar9709/e_commerce"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="/images/portfolio6.jpg" alt="">
+        <div class="portfolio-layer">
+          <h4>All Projects</h4>
+          <p>All of my projects are Available at my Github account. You may explore my Github profile to check my all
+            creativity.</p>
+          <a target="_blank" href="https://github.com/bashar9709?tab=repositories"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- contact section design -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span >Me!</span></h2>
+    <form id="myForm">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name" id="name" required>
+        <input type="email" placeholder="Email Address" id="email" required>
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Mobile Number" id="phone">
+        <input type="text" placeholder="Email Subject" id="subject">
+      </div>
+      <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+      <input type="submit" value="Send Message" class="btn" id="sendBtn">
+    </form>
+  </section>
+ 
+  <!-- footer design -->
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2024 by Md.Abul Bashar | All Rights Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+      <a href="#home" class="bx bx-up-arrow-alt"></a>
+    </div>
+  </footer>
+
+  <!-- scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+
+  <!-- typed js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- custom js -->
+  <script src="js/script.js"></script>
+  <script src="js/form.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
