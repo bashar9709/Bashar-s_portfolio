@@ -1,7 +1,7 @@
 
-// EmailJS init (HTML এ script add করার পর এটা চালু হবে)
+// EmailJS init
 (function(){
-    emailjs.init("kLurcII0x3AHlEcxg"); // এখানে তোমার Public Key বসাও
+    emailjs.init("kLurcII0x3AHlEcxg"); 
 })();
 
 let button = document.getElementById('sendBtn');
