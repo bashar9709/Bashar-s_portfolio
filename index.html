@@ -16,12 +16,12 @@
   <!-- custom css -->
   <link rel="stylesheet" href="css/style.css" />
   <link rel="icon" type="image/png" sizes="32x32" href="images/mynewfavicon.png">
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   </script>
 
   <script type="text/javascript">
     (function () {
-      emailjs.init("8Qjf3YE8puXaq4T9T");
+      emailjs.init("kLurcII0x3AHlEcxg");
     })();
   </script>
 
@@ -32,7 +32,7 @@
   <!-- header design -->
 
   <header class="header">
-    <a href="#" class="logo">Md Abul Bashar</a>
+    <a href="#" class="logo">Md Abul Basher</a>
     <i class="bx bx-menu" id="menu-icon"></i>
     <nav class="navbar">
       <a href="#home" class="active">Home</a>
@@ -47,7 +47,7 @@
   <section class="home" id="home">
     <div class="home-content">
       <h3>Hello, It's Me</h3>
-      <h1>Md.Abul Bashar</h1>
+      <h1>Md.Abul Basher</h1>
       <h3>And I'm a <span class="multiple-text"></span></h3>
       <p>If you have any exciting projects or opportunities, feel free to reach out. Let's create something amazing
         together!</p>
@@ -60,33 +60,41 @@
         <a href="https://github.com/bashar9709" class='bx bxl-github' target="_blank"></a>
 
       </div>
-      <a href="" class="btn">Download CV</a>
+      <a href="Md. Abul Basher() CV.pdf" download="Md_Abul_Basher_CV" class="btn">Download CV</a>
     </div>
     <div class="home-img">
-      <img src="images/home1.jpg" alt="Avatar">
+      <img src="images/home1.png" alt="Avatar">
     </div>
   </section>
   <!-- about section design -->
   <section class="about" id="about">
     <div class="about-img">
-      <img src="images/about.jpg" alt="">
+      <img src="images/about.png" alt="">
     </div>
     <div class="about-content">
       <h2 class="heading">About <span>Me</span></h2>
-      <h3>Backend Developer!</h3>
-      <p>I'm Md.Abul Bashar, a passionate Backend Web Developer with a knack for creating captivating web experiences. My
-        journey into the world of programming began with a fascination for Backend development and frontend, which grew into a love
-        for crafting user-friendly interfaces that leave a lasting impact.</p>
-      <p id="additional-content" style="display: none;">With a strong foundation in Python and Backend development, I
-        bring a well-rounded skill set to the table. My dedication to continuous learning keeps me up-to-date with the
-        latest trends and technologies in the industry, ensuring that my work stays cutting-edge. <br> <br>
-
-        I thrive on challenges and take pride in delivering efficient and scalable solutions that meet client needs.
-        From concept to deployment, I take a hands-on approach in every stage of the development process.
-
-        Let's collaborate and turn ideas into reality! Whether it's building exciting web applications or tackling
-        complex problems, I'm always ready to take on new ventures and explore the limitless possibilities of coding.
-      </p>
+      <h3>Data & AI Enthusiast!</h3>
+       <p>
+    I'm Md. Abul Bashar, an engineering student passionate about Data Analysis, Data Science, Machine Learning, and Artificial Intelligence.
+    My journey into programming started with web development, but over time I developed a strong interest in working with data and building intelligent systems.
+  </p>
+        <p id="additional-content" style="display: none;">
+      I have hands-on experience analyzing real-world datasets using Python, especially with Pandas and NumPy. I perform data cleaning,
+      exploratory data analysis (EDA), and extract meaningful insights to understand patterns and trends.
+    
+               <br> <br>
+    
+      I have built multiple machine learning projects, including predictive systems, and deployed them using Streamlit to create
+      interactive web applications for real-time predictions.
+    
+               <br> <br>
+    
+      Alongside this, I have developed several backend projects using Django, focusing on building structured and scalable web applications.
+    
+             <br> <br>
+      Currently, I am exploring Deep Learning and AI model development. My long-term goal is to become a Data Scientist and AI Engineer,
+      and build impactful data-driven solutions.
+    </p>
       <button class="btn" id="read-more-btn">Read more</button>
       <!-- <a href="" class="btn" >Read More</a> -->
     </div>
@@ -94,61 +102,118 @@
 
   <!-- services section design -->
   <section class="service" id="services">
-    <h2 class="heading">My <span>Expertise</span></h2>
-    <div class="services-container">
-      <div class="services-box">
-        <i class="bx bx-code-alt"></i>
-        <h3>Frontend Development</h3>
-        <h1>(Basic)</h1>
-        <p>In frontend development, I excel in <b>HTML, CSS</b> and <b>Bootstrap all (basic),</b> crafting captivating
-          user interfaces
-          and
-          experiences.</p>
-        <!-- <i class='Mbx bxl-html5' ></i> <i class='bx bxl-css3'></i> <i class='bx bxl-react'></i> -->
-        <div class="expertIcon">
-          <i class="bx bxl-html5"></i>
-          <i class="bx bxl-css3"></i>
-          <i class='bx bxl-bootstrap'></i>
-        </div>
-        <!-- <a href="#" class="btn">Read More</a> -->
-      </div>
+  <h2 class="heading">My <span>Expertise</span></h2>
 
-      <div class="services-box">
-        <i class="bx bxs-paint"></i>
-        <h3>Backend Development</h3>
-        <p>Proficient in <b>Python & Django</b>. Creating efficient, scalable solutions for seamless web applications 
-        </p>
-        <div class="expertIcon">
-          <i class='bx bxl-python'></i>
-          <i class='bx bxl-django'></i>
-        </div>
-        <!-- <a href="#" class="btn">Read More</a> -->
-      </div> 
-      <div class="services-box">
-        <i class="bx bxs-paint"></i>
-        <h3>Programming Languages</h3>
-        <p>Proficient in <b>C, C++ & Java </b>. Creating efficient, scalable solutions for seamless problems 
-        </p>
-        <div class="expertIcon">
-          <i class='fas fa-code'></i>
-          <i class='bx bxl-c-plus-plus'></i>
-          <i class='bx bxl-java'></i>
-        </div>
-        <!-- <a href="#" class="btn">Read More</a> -->
-      </div>
+  <div class="services-container">
+      <!-- Data Science -->
+  <div class="services-box">
+    <i class="bx bx-line-chart"></i>
+    <h3>Data Science</h3>
+    <p>
+      Applying data-driven techniques to analyze datasets, build models, and extract actionable insights
+      using Python-based tools and libraries.
+    </p>
+    <div class="expertIcon">
+      <i class='bx bxl-python'></i>
+    </div>
+  </div>
 
-      <div class="services-box">
-        <i class="bx bx-data"></i>
-        <h3>Database Management</h3>
-        <p>Specialized in <b>MySQL</b>. Designing and managing efficient databases for seamless data storage and
-          retrieval in web applications.</p>
-        <div class="expertIcon">
-          <i class='bx bxl-mysql'></i>
-        </div>
-        <!-- <a href="#" class="btn">Read More</a> -->
+    <!-- Data Analysis -->
+    <div class="services-box">
+      <i class="bx bx-data"></i>
+      <h3>Data Analysis</h3>
+      <p>
+        Experienced in analyzing real-world datasets using <b>Pandas</b> and <b>NumPy</b>.
+        Skilled in data cleaning, exploratory data analysis (EDA), and extracting meaningful insights.
+      </p>
+      <div class="expertIcon">
+        <i class='bx bxl-python'></i>
       </div>
     </div>
-  </section>
+
+    <!-- Machine Learning -->
+    <div class="services-box">
+      <i class="bx bx-brain"></i>
+      <h3>Machine Learning</h3>
+      <p>
+        Building predictive models using <b>Scikit-learn</b> and deploying them with <b>Streamlit</b>
+        for real-time intelligent applications.
+      </p>
+      <div class="expertIcon">
+        <i class='bx bxl-python'></i>
+      </div>
+    </div>
+
+      <!-- Deep Learning -->
+  <div class="services-box">
+    <i class="bx bx-network-chart"></i>
+    <h3>Deep Learning</h3>
+    <p>
+      Currently exploring neural networks and advanced models using <b>TensorFlow</b> and <b>PyTorch</b>
+      to build intelligent AI systems.
+    </p>
+    <div class="expertIcon">
+      <i class='bx bxl-python'></i>
+    </div>
+  </div>
+
+    <!-- Backend -->
+    <div class="services-box">
+      <i class="bx bx-server"></i>
+      <h3>Backend Development</h3>
+      <p>
+        Developing scalable web applications using <b>Python & Django</b>, focusing on backend logic,
+        database integration, and system design.
+      </p>
+      <div class="expertIcon">
+        <i class='bx bxl-python'></i>
+        <i class='bx bxl-django'></i>
+      </div>
+    </div>
+
+    <!-- Database -->
+    <div class="services-box">
+      <i class="bx bx-data"></i>
+      <h3>Database Management</h3>
+      <p>
+        Working with <b>MySQL</b> for efficient data storage, management, and retrieval in web applications.
+      </p>
+      <div class="expertIcon">
+        <i class='bx bxl-mysql'></i>
+      </div>
+    </div>
+
+    <!-- Frontend -->
+    <div class="services-box">
+      <i class="bx bx-code-alt"></i>
+      <h3>Frontend Development</h3>
+      <h1>(Basic)</h1>
+      <p>
+        Basic knowledge of <b>HTML, CSS, and Bootstrap</b> to build simple and user-friendly interfaces.
+      </p>
+      <div class="expertIcon">
+        <i class="bx bxl-html5"></i>
+        <i class="bx bxl-css3"></i>
+        <i class='bx bxl-bootstrap'></i>
+      </div>
+    </div>
+
+    <!-- Programming -->
+    <div class="services-box">
+      <i class="bx bx-code"></i>
+      <h3>Programming</h3>
+      <p>
+        Strong foundation in <b>Python</b> along with basic knowledge of <b>C, C++ and Java</b>.
+      </p>
+      <div class="expertIcon">
+        <i class='bx bxl-python'></i>
+        <i class='bx bxl-c-plus-plus'></i>
+        <i class='bx bxl-java'></i>
+      </div>
+    </div>
+
+  </div>
+</section>
 
   <!-- portfolio section design -->
 
@@ -156,9 +221,106 @@
     <h2 class="heading">Latest <span>Projects</span></h2>
     <div class="portfolio-container">
 
+    <div class="portfolio-box">
+  <img src="images/dia.png" alt="Diabetes Prediction System">
+
+  <div class="portfolio-layer">
+    <h4>Diabetes Prediction System</h4>
+
+    <p>
+      Built a machine learning model to predict the likelihood of diabetes based on medical data.
+      The model was trained using real-world datasets and deployed using Streamlit for real-time prediction.
+    </p>
+
+    <p><b>Tech:</b> Python, Pandas, NumPy, Scikit-learn, Streamlit</p>
+
+    <div class="project-links">
+      <a target="_blank" href="https://diabetes-prediction-bashar.streamlit.app/">
+        Live Demo
+      </a>
+      |
+      <a target="_blank" href="https://github.com/bashar9709/Diabetes_Prediction">Source Code
+        <i class="bx bx-link-external"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+    <div class="portfolio-box">
+  <img src="images/salary.png" alt="Salary Prediction System">
+
+  <div class="portfolio-layer">
+    <h4>Salary Prediction System</h4>
+    <p>
+      Built a machine learning model to predict salary based on experience and education level.
+      The model is trained using Linear Regression and deployed as an interactive web app using Streamlit.
+    </p>
+
+    <p><b>Tech:</b> Python, Pandas, Scikit-learn, Streamlit</p>
+
+    <div class="project-links">
+      <a target="_blank" href="https://mlsalarypredictionapp.streamlit.app/">
+        Live Demo
+      </a>
+      |
+      <a target="_blank" href="https://github.com/bashar9709/Ml_SalaryPrediction_app">Source Code
+        <i class="bx bx-link-external"></i>
+      </a>
+    </div>
+  </div>
+</div>
+      
+    <div class="portfolio-box">
+  <img src="images/titan.png" alt="Titanic Data Analysis">
+
+  <div class="portfolio-layer">
+    <h4>Titanic Data Analysis</h4>
+    <p>
+      Explored survival patterns using EDA. Performed data cleaning, handled missing values,
+      and visualized relationships like class, age, and fare.
+    </p>
+    <p><b>Tech:</b> Python, Pandas, Seaborn</p>
+    <a target="_blank" href="https://github.com/bashar9709/Titanic_data_Analysis">
+      <i class="bx bx-link-external"></i>
+    </a>
+  </div>
+</div>
+
+    <div class="portfolio-box">
+  <img src="images/sales.png" alt="Sales Data Analysis">
+
+  <div class="portfolio-layer">
+    <h4>Restaurant Sales Analysis</h4>
+    <p>
+      Analyzed multi-location sales data to identify trends and performance insights using
+      data preprocessing and visualization techniques.
+    </p>
+    <p><b>Tech:</b> Python, Pandas, Matplotlib</p>
+    <a target="_blank" href="https://github.com/bashar9709/Sales_Data_Analysis">
+      <i class="bx bx-link-external"></i>
+    </a>
+   </div>
+  </div>  
 
       <div class="portfolio-box">
-        <img src="" alt="">
+  <img src="images/uddemy.png" alt="Udemy Data Analysis">
+
+  <div class="portfolio-layer">
+    <h4>Udemy Courses Analysis</h4>
+    <p>
+      Analyzed course data to understand trends in subjects, pricing, and popularity
+      using Pandas and visualization tools.
+    </p>
+    <p><b>Tech:</b> Python, Pandas, Seaborn</p>
+    <a target="_blank" href="https://github.com/bashar9709/Udemy_Courses_Analysis">
+      <i class="bx bx-link-external"></i>
+    </a>
+  </div>
+</div>
+
+
+      <div class="portfolio-box">
+        <img src="images/book.png" alt="">
         <div class="portfolio-layer">
           <h4>Book Store Management</h4>
           <p>A fully functional <b>Book Store Management</b> web app developed in <b>Bootstrap, HTML</b> and <b>Django</b>
@@ -169,7 +331,7 @@
 
 
       <div class="portfolio-box">
-        <img src="" alt="">
+        <img src="images/todo.png" alt="">
         <div class="portfolio-layer">
           <h4>Todo List</h4>
           <p>A <b>Todo List</b> Web app. functionally developed using <b>Bootstrap, javascript & HTML, css</b> </p>
@@ -179,7 +341,7 @@
       </div>
 
       <div class="portfolio-box">
-        <img src="" alt="">
+        <img src="images/ecom.png" alt="">
         <div class="portfolio-layer">
           <h4>My Awesome Cart</h4>
           <p>An E-Commerce website developed using <b>HTML, CSS, Bootstrap and Django</b></p>
@@ -188,7 +350,7 @@
       </div>
 
       <div class="portfolio-box">
-        <img src="/images/portfolio6.jpg" alt="">
+        <img src="images/all.png" alt="">
         <div class="portfolio-layer">
           <h4>All Projects</h4>
           <p>All of my projects are Available at my Github account. You may explore my Github profile to check my all
@@ -210,7 +372,7 @@
         <input type="email" placeholder="Email Address" id="email" required>
       </div>
       <div class="input-box">
-        <input type="number" placeholder="Mobile Number" id="phone">
+        <input type="tel" placeholder="Mobile Number" id="phone">
         <input type="text" placeholder="Email Subject" id="subject">
       </div>
       <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
@@ -239,6 +401,8 @@
   <script src="js/script.js"></script>
   <script src="js/form.js"></script>
   <script src="script.js"></script>
+
+
 </body>
 
 </html>
