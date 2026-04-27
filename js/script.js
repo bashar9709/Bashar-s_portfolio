@@ -37,7 +37,7 @@ window.onscroll = () => {
 /*==================== scroll reveal ====================*/
 ScrollReveal({
     // reset: true,
-    distance: '80px',
+    distance: '50px',
     duration: 2000,
     delay: 200
 });
@@ -50,9 +50,9 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 /*==================== typed js ====================*/
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Python Expert', 'Backend Developer','Frontend Developer(Basic)'],
+    strings: ['Data Science, Machine Learning, AI Enthusiast & Data Analyst | Backend Developer (Django, Python) | Building Data-driven Intelligent Systems'],
     typeSpeed: 100,
-    backSpeed: 100,
+    backSpeed: 1500,
     backDelay: 1000,
     loop: true
 });
