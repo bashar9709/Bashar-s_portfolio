@@ -79,14 +79,17 @@ section {
 
 .home {
     display: flex;
-    justify-content: center;
+    justify-content: space-between; 
     align-items: center;
+    padding: 0 10%;
+    flex: 3;
 }
 
 .home-img img {
-    width: 15vw;
+    width: 20vw;
     border-radius: 50%;
     animation: floatImage 4s ease-in-out infinite;
+    flex: 3;
 }
 
 @keyframes floatImage {
@@ -572,4 +575,18 @@ span {
     color: var(--main-color);
     margin: 0 1.5rem 0 0;
     transition: .5s ease;
+}
+
+
+.portfolio-box {
+    min-height: 250px;
+}
+
+.portfolio-box .portfolio-layer {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), var(--main-color));
+}
+
+.portfolio-box {
+  min-height: 250px;
+  background: #222;
 }
